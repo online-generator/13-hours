@@ -53,7 +53,7 @@ module.exports = {
     }),
   ],
   optimization: {
-    minimize: true,
-    minimizer: [new CssMinimizerPlugin(), new TerserPlugin()],
+    minimize: false,
+    //minimizer: [new CssMinimizerPlugin(), new TerserPlugin()],
   },
 };
